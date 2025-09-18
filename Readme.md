@@ -1,5 +1,7 @@
 # ETL Script Test Task
 
+Done by Diana Shatkovska
+
 ## Overview
 
 This repository contains an ETL (Extract, Transform, Load) pipeline
