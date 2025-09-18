@@ -136,36 +136,36 @@ a production-like environment.
 
 ## Repository Structure
 
-    .
-├── Makefile
-├── Readme.md
-├── data
-│   ├── processed
-│   │   └── 2025-09-18
-│   │       └── data.parquet
-│   └── raw
-│       └── 2025-09-18
-│           └── responce.json
-├── docker-compose.yaml
-├── dump.sql
-├── report.json
-├── requirements.txt
-├── screenshots
-│   ├── database_working.png
-│   ├── extract_results.png
-│   └── transform_results.png
-└── src
-    ├── airflow
-    │   └── etl_dag.py
-    ├── config.py
-    ├── data_exploration
-    │   └── data_exploration.ipynb
-    ├── db_connect.py
-    ├── fetch_api_script.py
-    ├── load_to_db_script.py
-    ├── models.py
-    ├── sql_reports_script.py
-    └── transform_data_script.py
+        .
+    ├── Makefile
+    ├── Readme.md
+    ├── data
+    │   ├── processed
+    │   │   └── 2025-09-18
+    │   │       └── data.parquet
+    │   └── raw
+    │       └── 2025-09-18
+    │           └── responce.json
+    ├── docker-compose.yaml
+    ├── dump.sql
+    ├── report.json
+    ├── requirements.txt
+    ├── screenshots
+    │   ├── database_working.png
+    │   ├── extract_results.png
+    │   └── transform_results.png
+    └── src
+        ├── airflow
+        │   └── etl_dag.py
+        ├── config.py
+        ├── data_exploration
+        │   └── data_exploration.ipynb
+        ├── db_connect.py
+        ├── fetch_api_script.py
+        ├── load_to_db_script.py
+        ├── models.py
+        ├── sql_reports_script.py
+        └── transform_data_script.py
 
 12 directories, 23 files
 
