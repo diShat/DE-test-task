@@ -1,0 +1,78 @@
+{
+    "average_flight_number": [
+        {
+            "avg_flight_number": null
+        }
+    ],
+    "unique_rockets": [
+        {
+            "unique_rockets": 2
+        }
+    ],
+    "launches_per_year": [
+        {
+            "launch_year": 2006,
+            "total_launches": 1
+        },
+        {
+            "launch_year": 2007,
+            "total_launches": 1
+        },
+        {
+            "launch_year": 2008,
+            "total_launches": 2
+        },
+        {
+            "launch_year": 2009,
+            "total_launches": 1
+        },
+        {
+            "launch_year": 2010,
+            "total_launches": 2
+        },
+        {
+            "launch_year": 2012,
+            "total_launches": 2
+        },
+        {
+            "launch_year": 2013,
+            "total_launches": 3
+        },
+        {
+            "launch_year": 2014,
+            "total_launches": 6
+        },
+        {
+            "launch_year": 2015,
+            "total_launches": 7
+        },
+        {
+            "launch_year": 2016,
+            "total_launches": 9
+        },
+        {
+            "launch_year": 2017,
+            "total_launches": 18
+        },
+        {
+            "launch_year": 2018,
+            "total_launches": 20
+        },
+        {
+            "launch_year": 2019,
+            "total_launches": 11
+        },
+        {
+            "launch_year": 2020,
+            "total_launches": 26
+        },
+        {
+            "launch_year": 2021,
+            "total_launches": 31
+        },
+        {
+            "launch_year": 2022,
+            "total_launches": 44
+        }
+    ]
+}
