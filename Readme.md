@@ -7,9 +7,9 @@ Done by Diana Shatkovska
 This repository contains an ETL (Extract, Transform, Load) pipeline
 developed as part of a test task.
 The pipeline demonstrates: 
-- Extracting data from an external API.\
-- Transforming the raw data into a structured format.\
-- Loading the processed data into a PostgreSQL database.\
+- Extracting data from an external API.
+- Transforming the raw data into a structured format.
+- Loading the processed data into a PostgreSQL database.
 - Making simple queries to the database and creating a report.
 
 Additional tools used include **Docker Compose** for containerized
@@ -58,16 +58,16 @@ Added colums:
 The pipeline is divided into four main steps:
 
 1.  **Extract**
-    -   Script: `src/fetch_api_script.py`\
+    -   Script: `src/fetch_api_script.py`
     -   Function: Calls the API, retrieves raw JSON, saves raw data to designated directory.
 2.  **Transform**
-    -   Script: `src/transform_data_script.py`\
+    -   Script: `src/transform_data_script.py`
     -   Function: Normalizes, cleans data and converts it to types. Saves clean data into designated directory.
 3.  **Load**
-    -   Script: `src/load_to_db_script.py`\
+    -   Script: `src/load_to_db_script.py`
     -   Function: Loads transformed data into PostgreSQL.
 3.  **Report**
-    -   Script: `src/sql_reports_script.py`\
+    -   Script: `src/sql_reports_script.py`
     -   Function: Performs 3 simple sql queries on datatable for demonstration and creates a report.json file.
 
 All scripts can be run individually or orchestrated via Makefile (see the section below).
@@ -77,9 +77,9 @@ All scripts can be run individually or orchestrated via Makefile (see the sectio
 ## PostgreSQL & Docker Compose
 
 -   A `docker-compose.yml` file is included to spin up a local
-    **Postgres database**.\
+    **Postgres database**.
 -   Database credentials, ports, and volumes are configured for
-    persistence.\
+    persistence.
 -   Run `docker-compose up -d` to start the service (or use "make up" command).
 
 ------------------------------------------------------------------------
@@ -87,14 +87,14 @@ All scripts can be run individually or orchestrated via Makefile (see the sectio
 ## Makefile
 
 The **Makefile** provides shortcuts for common operations: 
-- `make up` → Start Postgres via Docker Compose.\
-- `make down` → Stop containers.\
-- `make extract` → Run extract script.\
-- `make transform` → Run transform script.\
-- `make load` → Run load script.\
-- `make etl` → Run the full pipeline in order (without creating report).\
-- `make report` → Run report script.\
-- `make dump` → Perform database dump.\
+- `make up` → Start Postgres via Docker Compose.
+- `make down` → Stop containers.
+- `make extract` → Run extract script.
+- `make transform` → Run transform script.
+- `make load` → Run load script.
+- `make etl` → Run the full pipeline in order (without creating report).
+- `make report` → Run report script.
+- `make dump` → Perform database dump.
 - `make requirements` → Install the requirements.
 
 ------------------------------------------------------------------------
@@ -102,7 +102,7 @@ The **Makefile** provides shortcuts for common operations:
 ## Airflow DAG (Optional)
 
 An **Airflow DAG file** (`etl_dag.py`) is included in the repo but not
-deployed.\
+deployed.
 It demonstrates how this ETL process could be scheduled and monitored in
 a production-like environment.
 
@@ -110,7 +110,7 @@ a production-like environment.
 
 ## How to Run
 
-1.  Clone this repository.\
+1.  Clone this repository.
 
 2.  Rename .env.example back to .env .
 
